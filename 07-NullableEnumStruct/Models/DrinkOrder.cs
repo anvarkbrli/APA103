@@ -1,11 +1,5 @@
 ﻿using _07_NullableEnumStruct.Enums;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace _07_NullableEnumStruct.Models
 {
@@ -23,6 +17,8 @@ namespace _07_NullableEnumStruct.Models
             CustomerName = customerName;
             Drink = drink;
             Size = size;
+            Status = status;
+            Price = CalculatePrice();
         }
 
         public decimal CalculatePrice()
@@ -103,7 +99,7 @@ namespace _07_NullableEnumStruct.Models
         }
         public void DisplayOrder()
         {
-            CalculatePrice();
+            
             Console.WriteLine("Siferis detallari");
             Console.WriteLine($"Sifrais Nomresi: {OrderNumber}");
             Console.WriteLine($"Musterinin adi: {CustomerName}");

@@ -1,0 +1,5 @@
+C:\Users\Acer\Desktop\APA103\08-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\08-StatiClassExtensionMethodsExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\APA103\08-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\08-StatiClassExtensionMethodsExceptions.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\APA103\08-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\08-StatiClassExtensionMethodsExceptions.AssemblyInfo.cs
+C:\Users\Acer\Desktop\APA103\08-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\08-StatiClassExtensionMethodsExceptions.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\APA103\08-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\08-StatiClassExtensionMethodsExceptions.sourcelink.json

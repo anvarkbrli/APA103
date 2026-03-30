@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:2:0:{CABCC0E2-1846-41CE-8D66-CFA838FF6BB9}|07-NullableEnumStruct.csproj|solutionrelative:models\\drinkorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CABCC0E2-1846-41CE-8D66-CFA838FF6BB9}|07-NullableEnumStruct.csproj|c:\\users\\acer\\desktop\\apa103\\07-nullableenumstruct\\enums\\drinktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CABCC0E2-1846-41CE-8D66-CFA838FF6BB9}|07-NullableEnumStruct.csproj|solutionrelative:enums\\drinktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CABCC0E2-1846-41CE-8D66-CFA838FF6BB9}|07-NullableEnumStruct.csproj|c:\\users\\acer\\desktop\\apa103\\07-nullableenumstruct\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CABCC0E2-1846-41CE-8D66-CFA838FF6BB9}|07-NullableEnumStruct.csproj|solutionrelative:enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CABCC0E2-1846-41CE-8D66-CFA838FF6BB9}|07-NullableEnumStruct.csproj|c:\\users\\acer\\desktop\\apa103\\07-nullableenumstruct\\enums\\drinktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CABCC0E2-1846-41CE-8D66-CFA838FF6BB9}|07-NullableEnumStruct.csproj|solutionrelative:enums\\drinktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CABCC0E2-1846-41CE-8D66-CFA838FF6BB9}|07-NullableEnumStruct.csproj|c:\\users\\acer\\desktop\\apa103\\07-nullableenumstruct\\enums\\drinksize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,9 +42,9 @@
               "Title": "DrinkOrder.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Models\\DrinkOrder.cs",
               "RelativeDocumentMoniker": "Models\\DrinkOrder.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Models\\DrinkOrder.cs",
-              "RelativeToolTip": "Models\\DrinkOrder.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAADwv0kAAAAsAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Models\\DrinkOrder.cs*",
+              "RelativeToolTip": "Models\\DrinkOrder.cs*",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAIwBQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T20:37:51.827Z",
               "EditorCaption": ""
@@ -63,15 +63,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\OrderStatus.cs",
               "RelativeDocumentMoniker": "Enums\\OrderStatus.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\OrderStatus.cs",
-              "RelativeToolTip": "Enums\\OrderStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\OrderStatus.cs*",
+              "RelativeToolTip": "Enums\\OrderStatus.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T20:17:24.708Z"
+              "WhenOpened": "2026-03-27T20:17:24.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -79,23 +80,25 @@
               "Title": "DrinkSize.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\DrinkSize.cs",
               "RelativeDocumentMoniker": "Enums\\DrinkSize.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\DrinkSize.cs",
-              "RelativeToolTip": "Enums\\DrinkSize.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\DrinkSize.cs*",
+              "RelativeToolTip": "Enums\\DrinkSize.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T20:16:48.366Z"
+              "WhenOpened": "2026-03-27T20:16:48.366Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DrinkType.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\DrinkType.cs",
               "RelativeDocumentMoniker": "Enums\\DrinkType.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\DrinkType.cs",
-              "RelativeToolTip": "Enums\\DrinkType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\DrinkType.cs*",
+              "RelativeToolTip": "Enums\\DrinkType.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T20:14:05.8Z"
+              "WhenOpened": "2026-03-27T20:14:05.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,9 +106,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwA0AAAA4AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\07-NullableEnumStruct\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvwoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T20:12:55.108Z",
               "EditorCaption": ""
