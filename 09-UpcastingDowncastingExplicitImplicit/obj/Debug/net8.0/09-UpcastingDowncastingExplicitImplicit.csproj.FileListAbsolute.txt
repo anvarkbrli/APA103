@@ -1,0 +1,5 @@
+C:\Users\Acer\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.AssemblyInfo.cs
+C:\Users\Acer\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.sourcelink.json

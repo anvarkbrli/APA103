@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{0962B6DF-D180-4BE9-AE3F-F63CD29A77C6}|08-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0962B6DF-D180-4BE9-AE3F-F63CD29A77C6}|08-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\acer\\desktop\\apa103\\08-staticlassextensionmethodsexceptions\\models\\loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0962B6DF-D180-4BE9-AE3F-F63CD29A77C6}|08-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:models\\loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0962B6DF-D180-4BE9-AE3F-F63CD29A77C6}|08-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\acer\\desktop\\apa103\\08-staticlassextensionmethodsexceptions\\utilities\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0962B6DF-D180-4BE9-AE3F-F63CD29A77C6}|08-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:utilities\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{0962B6DF-D180-4BE9-AE3F-F63CD29A77C6}|08-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:utilities\\exceptions\\accountlockedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0962B6DF-D180-4BE9-AE3F-F63CD29A77C6}|08-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\acer\\desktop\\apa103\\08-staticlassextensionmethodsexceptions\\models\\loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0962B6DF-D180-4BE9-AE3F-F63CD29A77C6}|08-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:models\\loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0962B6DF-D180-4BE9-AE3F-F63CD29A77C6}|08-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\acer\\desktop\\apa103\\08-staticlassextensionmethodsexceptions\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0962B6DF-D180-4BE9-AE3F-F63CD29A77C6}|08-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -46,7 +46,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserNotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\08-StatiClassExtensionMethodsExceptions\\Utilities\\Exceptions\\UserNotFoundException.cs",
               "RelativeDocumentMoniker": "Utilities\\Exceptions\\UserNotFoundException.cs",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InvalidUsernameException.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\08-StatiClassExtensionMethodsExceptions\\Utilities\\Exceptions\\InvalidUsernameException.cs",
               "RelativeDocumentMoniker": "Utilities\\Exceptions\\InvalidUsernameException.cs",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IncorrectPasswordException.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\08-StatiClassExtensionMethodsExceptions\\Utilities\\Exceptions\\IncorrectPasswordException.cs",
               "RelativeDocumentMoniker": "Utilities\\Exceptions\\IncorrectPasswordException.cs",
@@ -85,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "InvalidPasswordException.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\08-StatiClassExtensionMethodsExceptions\\Utilities\\Exceptions\\InvalidPasswordException.cs",
               "RelativeDocumentMoniker": "Utilities\\Exceptions\\InvalidPasswordException.cs",
@@ -104,14 +104,27 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\08-StatiClassExtensionMethodsExceptions\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T15:18:02.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "LoginSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\08-StatiClassExtensionMethodsExceptions\\Models\\LoginSystem.cs",
+              "RelativeDocumentMoniker": "Models\\LoginSystem.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\08-StatiClassExtensionMethodsExceptions\\Models\\LoginSystem.cs",
+              "RelativeToolTip": "Models\\LoginSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:20:52.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AccountLockedException.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\08-StatiClassExtensionMethodsExceptions\\Utilities\\Exceptions\\AccountLockedException.cs",
               "RelativeDocumentMoniker": "Utilities\\Exceptions\\AccountLockedException.cs",
@@ -120,19 +133,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T17:54:30.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginSystem.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\08-StatiClassExtensionMethodsExceptions\\Models\\LoginSystem.cs",
-              "RelativeDocumentMoniker": "Models\\LoginSystem.cs",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\08-StatiClassExtensionMethodsExceptions\\Models\\LoginSystem.cs",
-              "RelativeToolTip": "Models\\LoginSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T15:20:52.862Z",
               "EditorCaption": ""
             },
             {
