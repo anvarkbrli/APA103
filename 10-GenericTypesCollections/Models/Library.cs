@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _10_GenericTypesCollections.Models
+{
+    internal class Library<T>
+    {
+        public List<T> Items { get; set; }
+        public string Name { get; set; }
+        public Library(string name)
+        {
+            Name = name;
+            Items = new List<T>();
+        }
+
+        public void Add(T item)
+        { 
+            Items.Add(item);
+            Console.WriteLine("Elave edildi");
+        }
+        public void Remove(T item)
+        {
+            Items.Remove(item);
+            Console.WriteLine("Silindi");
+        }
+        public List<T> GetAll()
+        {
+            if (Items.Count == 0)
+            {
+                return new List<T>();
+            }
+
+            return Items;
+
+        }
+        public int Count()
+        { 
+            return Items.Count;
+        }
+        public T FindByIndex(int index)
+        {
+            if (index < 0 || index >= Items.Count)
+            {
+                throw new IndexOutOfRangeException("Indeks duzgun deyil");
+            }
+
+            return Items[index];
+        }
+    }
+}
