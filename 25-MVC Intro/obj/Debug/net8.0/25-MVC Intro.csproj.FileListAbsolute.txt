@@ -1,0 +1,7 @@
+C:\Users\Acer\Desktop\APA103\25-MVC Intro\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Acer\Desktop\APA103\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\APA103\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\APA103\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.AssemblyInfo.cs
+C:\Users\Acer\Desktop\APA103\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\APA103\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Acer\Desktop\APA103\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.sourcelink.json

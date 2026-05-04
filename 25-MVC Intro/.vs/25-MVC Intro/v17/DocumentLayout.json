@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|c:\\users\\acer\\desktop\\apa103\\25-mvc intro\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|solutionrelative:views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|c:\\users\\acer\\desktop\\apa103\\25-mvc intro\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|solutionrelative:views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|c:\\users\\acer\\desktop\\apa103\\25-mvc intro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|c:\\users\\acer\\desktop\\apa103\\25-mvc intro\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|c:\\users\\acer\\desktop\\apa103\\25-mvc intro\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|c:\\users\\acer\\desktop\\apa103\\25-mvc intro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|c:\\users\\acer\\desktop\\apa103\\25-mvc intro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|c:\\users\\acer\\desktop\\apa103\\25-mvc intro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C78DFD-3DF7-487D-A92F-99184C7A217B}|25-MVC Intro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T20:16:12.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T20:10:14.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:09:23.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Views\\Home\\error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\error.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Views\\Home\\error.cshtml",
+              "RelativeToolTip": "Views\\Home\\error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T20:01:45.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Views\\Home\\detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\detail.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Views\\Home\\detail.cshtml",
+              "RelativeToolTip": "Views\\Home\\detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T19:59:27.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Views\\Home\\index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Views\\Home\\index.cshtml",
+              "RelativeToolTip": "Views\\Home\\index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T19:57:27.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T19:43:23.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\25-MVC Intro\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T19:41:48.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
