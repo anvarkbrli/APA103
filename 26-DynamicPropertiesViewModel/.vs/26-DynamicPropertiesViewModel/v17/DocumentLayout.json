@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|c:\\users\\acer\\desktop\\apa103\\26-dynamicpropertiesviewmodel\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|solutionrelative:viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|c:\\users\\acer\\desktop\\apa103\\26-dynamicpropertiesviewmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|c:\\users\\acer\\desktop\\apa103\\26-dynamicpropertiesviewmodel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|c:\\users\\acer\\desktop\\apa103\\26-dynamicpropertiesviewmodel\\views\\home\\corporativesales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|solutionrelative:views\\home\\corporativesales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|c:\\users\\acer\\desktop\\apa103\\26-dynamicpropertiesviewmodel\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|c:\\users\\acer\\desktop\\apa103\\26-dynamicpropertiesviewmodel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|c:\\users\\acer\\desktop\\apa103\\26-dynamicpropertiesviewmodel\\models\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|solutionrelative:models\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|c:\\users\\acer\\desktop\\apa103\\26-dynamicpropertiesviewmodel\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|solutionrelative:models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|c:\\users\\acer\\desktop\\apa103\\26-dynamicpropertiesviewmodel\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B12D594-2F57-456B-AB4A-628B0DC81B9F}|26-DynamicPropertiesViewModel.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\ViewModels\\HomeVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\ViewModels\\HomeVM.cs",
+              "RelativeToolTip": "ViewModels\\HomeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T19:10:54.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Models\\HomeVM.cs",
+              "RelativeDocumentMoniker": "Models\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Models\\HomeVM.cs",
+              "RelativeToolTip": "Models\\HomeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T19:03:48.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Models\\Teacher.cs",
+              "RelativeToolTip": "Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T19:03:29.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Views\\Home\\details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\details.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Views\\Home\\details.cshtml",
+              "RelativeToolTip": "Views\\Home\\details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-05T16:25:17.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T16:02:14.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CorporativeSales.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Views\\Home\\CorporativeSales.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CorporativeSales.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Views\\Home\\CorporativeSales.cshtml",
+              "RelativeToolTip": "Views\\Home\\CorporativeSales.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-05T14:01:38.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T13:56:13.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-05T13:56:06.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\26-DynamicPropertiesViewModel\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T13:55:44.279Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
