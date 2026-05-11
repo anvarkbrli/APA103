@@ -14,15 +14,19 @@ namespace _27_FrontToBackSqlConnection.Controllers
         {
              _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Slider> sliders = _context.sliders
+            List<Slider> sliders = await _context.sliders
                 .OrderBy(s => s.Order)
                 .Where(s => !s.IsDelete)
                 .Take(2)
-                .ToList();
+                .ToListAsync();
 
-            List<Product> products = _context.Products.Where(p=> !p.IsDelete).Include(p=>p.ProductImages).ToList();
+            List<Product> products = await _context.Products
+                .Where(p => !p.IsDelete)
+                .Include(p => p.ProductImages)
+                .ToListAsync();
+
 
             HomeVM homeVM = new()
             {

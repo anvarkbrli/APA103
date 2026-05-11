@@ -66,11 +66,12 @@ namespace _27_FrontToBackSqlConnection.Migrations
                     b.Property<bool>("IsDelete")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Name")
-                        .HasColumnType("int");
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Price")
-                        .HasColumnType("int");
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
 
                     b.Property<string>("SKU")
                         .IsRequired()
@@ -101,7 +102,7 @@ namespace _27_FrontToBackSqlConnection.Migrations
                     b.Property<bool>("IsDelete")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("IsPrimary")
+                    b.Property<bool?>("IsPrimary")
                         .HasColumnType("bit");
 
                     b.Property<int>("ProductID")
@@ -155,7 +156,7 @@ namespace _27_FrontToBackSqlConnection.Migrations
             modelBuilder.Entity("_27_FrontToBackSqlConnection.Models.Product", b =>
                 {
                     b.HasOne("_27_FrontToBackSqlConnection.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("CategoryID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -172,6 +173,11 @@ namespace _27_FrontToBackSqlConnection.Migrations
                         .IsRequired();
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("_27_FrontToBackSqlConnection.Models.Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("_27_FrontToBackSqlConnection.Models.Product", b =>
