@@ -18,12 +18,12 @@ namespace _27_FrontToBackSqlConnection.Controllers
         {
             List<Slider> sliders = await _context.sliders
                 .OrderBy(s => s.Order)
-                .Where(s => !s.IsDelete)
+                .Where(s => !s.IsDeleted)
                 .Take(2)
                 .ToListAsync();
 
             List<Product> products = await _context.Products
-                .Where(p => !p.IsDelete)
+                .Where(p => !p.IsDeleted)
                 .Include(p => p.ProductImages)
                 .ToListAsync();
 

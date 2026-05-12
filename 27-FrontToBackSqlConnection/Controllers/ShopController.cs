@@ -17,7 +17,7 @@ namespace _27_FrontToBackSqlConnection.Controllers
         public async Task<IActionResult> Index()
         {
             List<Product> products = await _context.Products
-              .Where(p => !p.IsDelete)
+              .Where(p => !p.IsDeleted)
               .Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))
               .ToListAsync();
 
@@ -34,13 +34,13 @@ namespace _27_FrontToBackSqlConnection.Controllers
             if (id is null || id < 0) return BadRequest();
 
             Product? product = await _context.Products
-                .Where(p => !p.IsDelete)
+                .Where(p => !p.IsDeleted)
                 .Include(p => p.ProductImages)
                 .Include(p => p.Category)
                 .FirstOrDefaultAsync(p => p.Id == id);
 
             List<Product> relatedProducts = await _context.Products
-                .Where(p => !p.IsDelete)
+                .Where(p => !p.IsDeleted)
                 .Include(p => p.ProductImages.Where(pi=> pi.IsPrimary !=null))
                 .Where(p => p.CategoryID == product.CategoryID && p.Id != id)
                 .Take(4)
