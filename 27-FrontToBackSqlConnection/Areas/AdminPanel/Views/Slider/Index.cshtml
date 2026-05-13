@@ -1,4 +1,4 @@
-﻿@model List<Category>
+﻿@model List<Slider>
 @{
     int count = 0;
 }
@@ -16,19 +16,25 @@
                                     №
                                 </th>
                                 <th>
-                                    Name
+                                    Image
+                                </th
+                                <th>
+                                    Title
                                 </th>
                                 <th>
-                                    Products
+                                    Subtitle
+                                </th>
+                                <th>
+                                    Order
                                 </th>
                                 <th>
                                     Settings
-                                </th>
-                               
+                                </th
+
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach(Category category in Model)
+                            @foreach (Slider slider in Model)
                             {
                                 <tr>
 
@@ -36,15 +42,21 @@
                                         <p>@(++count)</p>
                                     </td>
                                     <td>
-                                        <p>@category.Name</p>
+                                        <img src="~/assets/images/website-images/@slider.Image"></img>
                                     </td>
                                     <td>
-                                        <p>@category.Products.Count</p>
+                                        <p>@slider.Title</p>
                                     </td>
                                     <td>
-                                        <a asp-action="Update" asp-route-id="@category.Id" type="button" class="btn btn-outline-warning  btn-fw">Edit</a>
-                                        <a asp-action="Delete" asp-route-id="@category.Id" type="button" class="btn btn-outline-danger  btn-fw">Delete</a>
-                                        <a asp-action="Detail" asp-route-id="@category.Id" type="button" class="btn btn-outline-info  btn-fw">Detail</a>
+                                        <p>@slider.SubTitle</p>
+                                    </td>
+                                    <td>
+                                        <p>@slider.Order</p>
+                                    </td>
+                                    <td>
+                                        <a asp-action="Update" asp-route-id="@slider.Id" type="button" class="btn btn-outline-warning  btn-fw">Edit</a>
+                                        <a asp-action="Delete" asp-route-id="@slider.Id" type="button" class="btn btn-outline-danger  btn-fw">Delete</a>
+                                        <a asp-action="Detail" asp-route-id="@slider.Id" type="button" class="btn btn-outline-info  btn-fw">Detail</a>
                                     </td>
 
                                 </tr>

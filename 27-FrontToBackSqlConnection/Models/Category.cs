@@ -6,7 +6,7 @@ namespace _27_FrontToBackSqlConnection.Models
     {
         [Required]
         [MaxLength(30, ErrorMessage ="Please input correctly")]
-        public string Name { get; set; }
-        public List<Product> Products { get; set; }
+        public string? Name { get; set; }
+        public List<Product>? Products { get; set; }
     }
 }
