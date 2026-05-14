@@ -1,0 +1,51 @@
+﻿@model Slider
+
+<div class="row">
+    <div class="col-lg-8 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Slider Detail</h4>
+
+                <div class="mb-4">
+                    <img style="width: 220px; height: 140px; object-fit: cover; border-radius: 6px;"
+                         src="~/assets/images/website-images/@Model.Image"
+                         alt="@Model.Title" />
+                </div>
+
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th style="width: 180px;">Id</th>
+                            <td>@Model.Id</td>
+                        </tr>
+                        <tr>
+                            <th>Title</th>
+                            <td>@Model.Title</td>
+                        </tr>
+                        <tr>
+                            <th>SubTitle</th>
+                            <td>@Model.SubTitle</td>
+                        </tr>
+                        <tr>
+                            <th>Description</th>
+                            <td>@Model.Description</td>
+                        </tr>
+                        <tr>
+                            <th>Order</th>
+                            <td>@Model.Order</td>
+                        </tr>
+                        <tr>
+                            <th>Image</th>
+                            <td>@Model.Image</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="mt-4">
+                    <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-outline-warning btn-fw">Edit</a>
+                    <a asp-action="Index" class="btn btn-light">Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
