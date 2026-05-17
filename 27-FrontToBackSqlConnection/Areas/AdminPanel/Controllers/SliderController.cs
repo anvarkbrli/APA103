@@ -85,13 +85,11 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
         {
             if (id is null || id < 1) return BadRequest();
 
-            Slider? slider = await _context.sliders
-                .Where(s => !s.IsDeleted)
-                .FirstOrDefaultAsync(c => c.Id == id);
+            Slider? slider = await _context.sliders.Where(s => !s.IsDeleted).FirstOrDefaultAsync(s => s.Id == id);
 
-            if (slider == null) return NotFound();
+            if (slider is null) return NotFound();
 
-            SliderUpdateVM sliderUpdateVM = new()
+            SliderUpdateVM sliderUpdateVm = new()
             {
                 Title = slider.Title,
                 SubTitle = slider.SubTitle,
@@ -99,8 +97,9 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
                 Order = slider.Order,
                 Image = slider.Image,
             };
+            
 
-            return View(sliderUpdateVM);
+            return View(sliderUpdateVm);
         }
         public async Task<IActionResult> Detail(int? id)
         {
