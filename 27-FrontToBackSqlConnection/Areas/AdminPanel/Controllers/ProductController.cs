@@ -53,8 +53,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             if(ModelState.IsValid) return View(productCreateVM);
 
-            bool existsCategory = productCreateVM.Categories
-            .Any(c => c.Id == productCreateVM.CategoryId);
+            bool existsCategory = productCreateVM.Categories.Any(c => c.Id == productCreateVM.CategoryId);
 
             if (!existsCategory)
             {
@@ -75,6 +74,17 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             return RedirectToAction(nameof(Index));
 
+        }
+        public async Task<IActionResult> Update(int? id)
+        {
+            if (id is null || id < 1) return BadRequest();
+
+            Category existCategory = await _context.Categories
+                .Where(c => !c.IsDeleted)
+                .FirstOrDefaultAsync(c => c.Id == id);
+            if (existCategory is null) return NotFound();
+
+            return View(existCategory);
         }
     }
 }
