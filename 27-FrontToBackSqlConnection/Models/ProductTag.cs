@@ -1,4 +1,4 @@
-﻿\namespace _27_FrontToBackSqlConnection.Models
+﻿namespace _27_FrontToBackSqlConnection.Models
 {
     public class ProductTag
     {

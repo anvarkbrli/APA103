@@ -2,6 +2,7 @@
 using _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Products;
 using _27_FrontToBackSqlConnection.Data;
 using _27_FrontToBackSqlConnection.Models;
+using _27_FrontToBackSqlConnection.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -85,6 +86,46 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             if (existCategory is null) return NotFound();
 
             return View(existCategory);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(int? id, ProductUpdateVM productUpdateVM)
+        {
+            if (id == null || id < 1) return BadRequest();
+            productUpdateVM.Categories = await _context.Categories.Where(c => !c.IsDeleted).ToListAsync();
+            if (!ModelState.IsValid) return View(productUpdateVM);
+
+            Product? existProduct = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            if (existProduct == null) return NotFound();
+
+            bool existCategory = productUpdateVM.Categories.Any(c => c.Id == productUpdateVM.CategoryId);
+            if (!existCategory)
+            {
+                ModelState.AddModelError(nameof(productUpdateVM.CategoryId), "Category does not exist");
+                return View(productUpdateVM);
+            }
+
+            if (productUpdateVM.TagIds is not null)
+            {
+                bool exitsTag = productUpdateVM.TagIds.Any(tagId => !productUpdateVM.Tags.Exists(t => t.Id == tagId));
+                if (exitsTag)
+                {
+                    ModelState.AddModelError(nameof(ProductCreateVM.TagIds), "Tag does not exist ");
+                    return View(productUpdateVM);
+                }
+            }
+
+            existProduct.Name = productUpdateVM.Name;
+            existProduct.Price = productUpdateVM.Price;
+            existProduct.Description = productUpdateVM.Description;
+            existProduct.SKU = productUpdateVM.SKU;
+            existProduct.CategoryId = productUpdateVM.CategoryId.Value;
+            if (productUpdateVM.TagIds is not null)
+            {
+                existProduct.ProductTags = productUpdateVM.TagIds.Select(tId => new ProductTag { TagId = tId }).ToList();
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }

@@ -6,9 +6,10 @@ namespace _27_FrontToBackSqlConnection.ViewModels
     public class ProductUpdateVM
     {
         public string Name { get; set; }
-        public decimal Price { get; set; }
+        public double Price { get; set; }
         public string Description { get; set; }
         public string SKU { get; set; }
+
         [Required]
         public int? CategoryId { get; set; }
         public List<int>? TagIds { get; set; }
