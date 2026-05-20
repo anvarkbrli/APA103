@@ -67,7 +67,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
                 Price = productCreateVM.Price,
                 Description = productCreateVM.Description,
                 SKU = productCreateVM.SKU,
-                CategoryID = productCreateVM.CategoryId.Value
+                CategoryId = productCreateVM.CategoryId.Value
             };
 
             await _context.Products.AddAsync(product);

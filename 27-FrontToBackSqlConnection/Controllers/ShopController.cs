@@ -42,7 +42,7 @@ namespace _27_FrontToBackSqlConnection.Controllers
             List<Product> relatedProducts = await _context.Products
                 .Where(p => !p.IsDeleted)
                 .Include(p => p.ProductImages.Where(pi=> pi.IsPrimary !=null))
-                .Where(p => p.CategoryID == product.CategoryID && p.Id != id)
+                .Where(p => p.CategoryId == product.CategoryId && p.Id != id)
                 .Take(4)
                 .ToListAsync();
 
