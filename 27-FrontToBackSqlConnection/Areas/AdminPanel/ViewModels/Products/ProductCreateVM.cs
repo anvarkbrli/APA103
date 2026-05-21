@@ -1,7 +1,7 @@
 ﻿using _27_FrontToBackSqlConnection.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Products
+namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels
 {
     public class ProductCreateVM
     {
@@ -9,6 +9,9 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Products
         public double Price { get; set; }
         public string Description { get; set; }
         public string SKU { get; set; }
+        public IFormFile MainPhoto { get; set; }
+        public IFormFile HoverPhoto { get; set; }
+        public List<IFormFile>? AdditionalPhoto { get; set; }
 
         [Required]
         public int? CategoryId { get; set; }
