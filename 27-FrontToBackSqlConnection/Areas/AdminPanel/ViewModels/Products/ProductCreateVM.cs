@@ -11,7 +11,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels
         public string SKU { get; set; }
         public IFormFile MainPhoto { get; set; }
         public IFormFile HoverPhoto { get; set; }
-        public List<IFormFile>? AdditionalPhoto { get; set; }
+        public List<IFormFile>? AdditionalPhotos { get; set; }
 
         [Required]
         public int? CategoryId { get; set; }
