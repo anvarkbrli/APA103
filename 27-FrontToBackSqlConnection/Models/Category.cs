@@ -10,3 +10,4 @@ namespace _27_FrontToBackSqlConnection.Models
         public List<Product>? Products { get; set; }
     }
 }
+

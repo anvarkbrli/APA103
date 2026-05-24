@@ -183,7 +183,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             _context.ProductTags.AddRange(productUpdateVM.TagIds
                 .Where(tId => !existProduct.ProductTags.Exists(pTag => pTag.TagId == tId))
                 .ToList()
-                .Select(tId => new ProductTag { TagId = tId, ProductID = existProduct.Id }));
+                .Select(tId => new ProductTag { TagId = tId, ProductId = existProduct.Id }));
 
             existProduct.Name = productUpdateVM.Name;
             existProduct.Price = productUpdateVM.Price;
