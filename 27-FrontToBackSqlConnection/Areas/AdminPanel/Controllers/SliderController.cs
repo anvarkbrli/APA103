@@ -3,6 +3,7 @@ using _27_FrontToBackSqlConnection.Data;
 using _27_FrontToBackSqlConnection.Models;
 using _27_FrontToBackSqlConnection.Utilities.Enums;
 using _27_FrontToBackSqlConnection.Utilities.Extensions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,7 +20,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             _context = context;
             _env = env;
         }
-
+        [Authorize(Roles = "Admin, Moderator, Member")]
         public async Task<IActionResult> Index()
         {
             List<Slider> sliders = await _context.sliders
@@ -28,6 +29,8 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             return View(sliders);
         }
+        [Authorize(Roles = "Admin, Moderator")]
+
         public IActionResult Create()
         {
             return View();
@@ -64,6 +67,8 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Delete(int? id)
         {
             if (id is null || id < 1) return BadRequest();
@@ -80,6 +85,8 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        [Authorize(Roles = "Admin, Moderator")]
+
         public async Task<IActionResult> Update(int? id)
         {
             if (id is null || id < 1) return BadRequest();
@@ -100,6 +107,59 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             return View(sliderUpdateVm);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(int? id, SliderUpdateVM sliderUpdateVM)
+        {
+            if (id is null || id < 1) return BadRequest();
+
+            Slider? existSlider = await _context.sliders
+                .Where(s => !s.IsDeleted)
+                .FirstOrDefaultAsync(s => s.Id == id);
+
+            if (existSlider is null) return NotFound();
+
+            if (!ModelState.IsValid)
+            {
+                sliderUpdateVM.Image = existSlider.Image;
+                return View(sliderUpdateVM);
+            }
+
+            if (sliderUpdateVM.Photo is not null)
+            {
+                if (!sliderUpdateVM.Photo.CheckFileType("image/"))
+                {
+                    ModelState.AddModelError("Photo", "File is incorrect!");
+                    sliderUpdateVM.Image = existSlider.Image;
+                    return View(sliderUpdateVM);
+                }
+
+                if (!sliderUpdateVM.Photo.CheckFileSize(FileSize.MB, 2))
+                {
+                    ModelState.AddModelError("Photo", "File size must be less than 2 mb!");
+                    sliderUpdateVM.Image = existSlider.Image;
+                    return View(sliderUpdateVM);
+                }
+
+                if (existSlider.Image is not null)
+                {
+                    existSlider.Image.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
+                }
+
+                existSlider.Image = await sliderUpdateVM.Photo.CreateFile(_env.WebRootPath, "assets","images","website-images");
+            }
+
+            existSlider.Title = sliderUpdateVM.Title;
+            existSlider.SubTitle = sliderUpdateVM.SubTitle;
+            existSlider.Description = sliderUpdateVM.Description;
+            existSlider.Order = sliderUpdateVM.Order;
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [Authorize(Roles = "Admin, Moderator")]
         public async Task<IActionResult> Detail(int? id)
         {
             if (id is null || id < 1) return BadRequest();

@@ -5,6 +5,7 @@ using _27_FrontToBackSqlConnection.Models;
 using _27_FrontToBackSqlConnection.Utilities.Enums;
 using _27_FrontToBackSqlConnection.Utilities.Extensions;
 using _27_FrontToBackSqlConnection.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,6 +22,8 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             _context = context;
             _env = env;
         }
+
+        [Authorize(Roles = "Admin, Moderator, Member")]
         public async Task<IActionResult> Index()
         {
             List<ProductGetVM> productGetVMs = await _context.Products
@@ -40,6 +43,9 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             return View(productGetVMs);
         }
+
+        [Authorize(Roles = "Admin, Moderator")]
+
         public async Task<IActionResult> Create()
         {
             ProductCreateVM productCreateVM = new()
@@ -155,6 +161,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
         }
 
 
+        [Authorize(Roles = "Admin, Moderator")]
 
         public async Task<IActionResult> Update(int? id)
         {
@@ -341,6 +348,50 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        [Authorize(Roles = "Admin")]
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id is null || id < 1) return BadRequest();
+
+            Product? product = await _context.Products
+                .Where(p => !p.IsDeleted)
+                .Include(p => p.ProductImages)
+                .Include(p => p.ProductTags)
+                .FirstOrDefaultAsync(p => p.Id == id);
+
+            if (product is null) return NotFound();
+
+            foreach (ProductImage image in product.ProductImages)
+            {
+                image.Image.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
+            }
+
+            _context.ProductTags.RemoveRange(product.ProductTags);
+            _context.ProductImages.RemoveRange(product.ProductImages);
+            _context.Products.Remove(product);
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+       
+
+        [Authorize(Roles = "Admin, Moderator")]
+        public async Task<IActionResult> Detail(int? id)
+        {
+            if (id is null || id < 1) return BadRequest();
+
+            Product? product = await _context.Products
+                .Include(p => p.ProductImages)
+                .Where(s => !s.IsDeleted)
+                .FirstOrDefaultAsync(s => s.Id == id);
+
+            if (product is null) return NotFound();
+
+            return View(product);
         }
     }
 }

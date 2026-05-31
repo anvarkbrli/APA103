@@ -1,5 +1,6 @@
 ﻿using _27_FrontToBackSqlConnection.Data;
 using _27_FrontToBackSqlConnection.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             _context = context;
         }
 
+        [Authorize(Roles ="Admin, Moderator, Member")]
         public async Task<IActionResult> Index()
         {
             List<Category> categories = await _context.Categories
@@ -24,7 +26,8 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             return View(categories);
         }
-        
+        [Authorize(Roles ="Admin, Moderator")]
+
         public IActionResult Create()
         {
             return View();
@@ -51,16 +54,9 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             // return View("View");
             return RedirectToAction("Index");
         }
-        public async Task<IActionResult> Detail(int? id)
-        {
-            if (id is null || id < 1) return BadRequest();
+        
 
-            Category? category = await _context.Categories.Include(c => c.Products).FirstOrDefaultAsync(c=> c.Id == id);
-             
-            if(category is null ) return NotFound();
-
-            return View(category);
-        }
+        [Authorize(Roles = "Admin, Moderator")]
         public async Task<IActionResult> Update(int? id)
         {
             if(id is null || id < 1)  return BadRequest();
@@ -100,6 +96,8 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
 
         }
+
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id is null || id < 1) return BadRequest();
@@ -114,6 +112,18 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             return RedirectToAction(nameof(Index));
 
+        }
+        [Authorize(Roles = "Admin, Moderator,")]
+
+        public async Task<IActionResult> Detail(int? id)
+        {
+            if (id is null || id < 1) return BadRequest();
+
+            Category? category = await _context.Categories.Include(c => c.Products).FirstOrDefaultAsync(c => c.Id == id);
+
+            if (category is null) return NotFound();
+
+            return View(category);
         }
     }
 }

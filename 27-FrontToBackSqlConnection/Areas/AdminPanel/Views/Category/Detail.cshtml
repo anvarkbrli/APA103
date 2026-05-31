@@ -1,1 +1,33 @@
-﻿
+﻿@using _27_FrontToBackSqlConnection.Models
+@model Category
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">@Model.Name Details </h4>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Name
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                              
+                                <td>
+                                    <p>@Model.Name</p>
+                                </td>
+                               
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a asp-action="index" class="btn btn-light">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

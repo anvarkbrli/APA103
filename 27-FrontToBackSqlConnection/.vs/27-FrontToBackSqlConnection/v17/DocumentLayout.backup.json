@@ -3,20 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\viewmodels\\products\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\viewmodels\\products\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\slider\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\slider\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\viewmodels\\products\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\viewmodels\\products\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\utilities\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:utilities\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\viewmodels\\account\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:viewmodels\\account\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|c:\\users\\acer\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39A9A582-8F5D-494D-81A1-E7A0EF6538B6}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +70,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAAABgBAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-25T19:30:08.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ProductUpdateVM.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\ViewModels\\Products\\ProductUpdateVM.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPanel\\ViewModels\\Products\\ProductUpdateVM.cs",
               "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\ViewModels\\Products\\ProductUpdateVM.cs",
               "RelativeToolTip": "Areas\\AdminPanel\\ViewModels\\Products\\ProductUpdateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T19:10:36.9Z"
+              "WhenOpened": "2026-05-31T21:02:19.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Product\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Product\\Detail.cshtml*",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Product\\Detail.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T20:46:42.334Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Product\\Update.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Product\\Update.cshtml",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Product\\Update.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Product\\Update.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAA8AAAAAAAAAA==",
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-25T19:08:25.819Z"
+              "WhenOpened": "2026-05-31T20:35:42.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T20:35:13.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T20:32:27.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAwwKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T20:24:11.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAAwLUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAHgBAAAAAAAAAAAuwIIBAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T04:01:30.484Z",
+              "WhenOpened": "2026-05-31T20:24:02.568Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwHMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T20:19:26.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Utilities\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Utilities\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Utilities\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Utilities\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T19:41:51.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAnwIwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T19:17:26.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T18:44:17.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\ViewModels\\Account\\LoginVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Account\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\ViewModels\\Account\\LoginVM.cs",
+              "RelativeToolTip": "ViewModels\\Account\\LoginVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T18:20:39.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwEkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T14:21:50.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAowGIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T14:08:28.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Update.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Update.cshtml",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T09:16:06.635Z"
             }
           ]
         }

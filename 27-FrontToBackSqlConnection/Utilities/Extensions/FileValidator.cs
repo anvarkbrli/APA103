@@ -48,8 +48,6 @@ namespace _27_FrontToBackSqlConnection.Utilities.Extensions
                 await file.CopyToAsync(fileStream);
 
             }
-
-
             return fileName;
         }
 
